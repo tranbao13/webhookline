@@ -1,0 +1,90 @@
+{
+  "EDITOR_STATE": {
+    "allProjectFiles": {
+      "129d803f-c5a4-4468-b4fb-84f05eaea232": {
+        "id": "129d803f-c5a4-4468-b4fb-84f05eaea232",
+        "parent": null,
+        "name": "webhookline.js",
+        "type": "JS_LAMBDA",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": true,
+        "filePath": "webhookline.js",
+        "cursor": {
+          "lineNumber": 2,
+          "column": 5
+        },
+        "config": {
+          "runtime": "nodejs8",
+          "timeout": 60,
+          "memory": 128,
+          "triggerType": 0,
+          "name": "webhookline"
+        },
+        "triggers": [
+          {
+            "resourceName": "http-trigger",
+            "config": {}
+          }
+        ]
+      },
+      "ecd49eae-8975-4c1e-8e5a-82a1e68e6e59": {
+        "id": "ecd49eae-8975-4c1e-8e5a-82a1e68e6e59",
+        "parent": null,
+        "name": "index.js",
+        "type": "JS_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "index.js"
+      },
+      "f9bb58bc-7e60-4836-aa8a-d625b1b6340b": {
+        "id": "f9bb58bc-7e60-4836-aa8a-d625b1b6340b",
+        "parent": null,
+        "name": "main.py",
+        "type": "PYTHON_FILE",
+        "isDirectory": false,
+        "children": [],
+        "isRemovable": false,
+        "filePath": "main.py"
+      }
+    },
+    "openFiles": [
+      "129d803f-c5a4-4468-b4fb-84f05eaea232"
+    ],
+    "currentFileId": "129d803f-c5a4-4468-b4fb-84f05eaea232",
+    "resources": {
+      "http-trigger": {
+        "name": "http-trigger",
+        "type": "http-trigger",
+        "config": {}
+      }
+    },
+    "customTemplate": {
+      "overrideDefault": false,
+      "dialect": null,
+      "definitions": null
+    },
+    "envVariables": [],
+    "packageJSON": {
+      "dependencies": {}
+    }
+  },
+  "PROJECT_META": {
+    "projectName": "webhookline",
+    "projectDescription": "Line webhook",
+    "projectVersion": "1.0.0",
+    "projectRegion": "asia-northeast1",
+    "platform": "GCP",
+    "language": "nodejs",
+    "platformRegions": {},
+    "lastSave": 1589463032385
+  },
+  "VCS_STATE": {
+    "provider": "GitHub",
+    "repo": {
+      "name": "webhookline",
+      "url": "https://github.com/tranbao13/webhookline"
+    }
+  }
+}
